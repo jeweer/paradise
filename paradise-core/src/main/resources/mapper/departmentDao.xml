@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.springmvc.services.dao.DepartmentDao">
+
+	<!-- 映射JavaBean对象和数据库字段的对映 -->
+	<resultMap id="department" type="com.springmvc.services.model.Department">
+		<id column="ID" jdbcType="INTEGER" property="id" />
+		<result column="name" jdbcType="VARCHAR" property="name" />
+	
+	</resultMap>
+
+	
+	<!-- 部门查询 -->
+	<select id="queryDepartment" resultMap="department">
+		select * from department order by id 
+	</select>
+
+	
+
+</mapper>
