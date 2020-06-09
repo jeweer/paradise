@@ -1,4 +1,4 @@
-package com.springmvc.impl;
+package com.springmvc.services.service.impl;
 
 import com.springmvc.services.dao.UserDao;
 import com.springmvc.services.model.User;

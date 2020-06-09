@@ -1,10 +1,10 @@
-package com.springmvc.controller;
+package com.springmvc.services.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.springmvc.services.model.Department;
 import com.springmvc.services.service.DepartmentService;
-import com.springmvc.util.JSONUtilAction;
+import com.springmvc.services.util.JSONUtilAction;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

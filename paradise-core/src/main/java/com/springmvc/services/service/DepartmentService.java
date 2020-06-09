@@ -1,4 +1,4 @@
-package com.springmvc.service;
+package com.springmvc.services.service;
 
 import com.springmvc.services.model.Department;
 

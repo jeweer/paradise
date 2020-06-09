@@ -41,7 +41,7 @@ http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd http://www.springfr
 	<mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
 	<mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
 	<!-- 添加扫描配置类 -->
-	<bean class="com.springmvc.config.SwaggerConfig" />
+	<bean class="com.springmvc.services.config.SwaggerConfig" />
 	<!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

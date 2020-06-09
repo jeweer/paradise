@@ -1,4 +1,4 @@
-package com.springmvc.util;
+package com.springmvc.services.util;
 
 import com.springmvc.services.model.User;
 import com.springmvc.services.service.UserService;

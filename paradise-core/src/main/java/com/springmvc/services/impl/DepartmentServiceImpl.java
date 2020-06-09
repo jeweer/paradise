@@ -1,4 +1,4 @@
-package com.springmvc.service.impl;
+package com.springmvc.services.impl;
 
 import com.springmvc.services.dao.DepartmentDao;
 import com.springmvc.services.model.Department;
