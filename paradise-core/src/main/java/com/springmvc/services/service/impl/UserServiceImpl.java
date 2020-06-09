@@ -12,12 +12,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private UserDao userDao;
-	
-	
-	@Override
+
 	public List<User> select() {
-		List<User> list =  userDao.selectUser();
-		return list;
+		List<User> users = userDao.selectUser();
+		return users;
 	}
+	
 
 }

@@ -13,12 +13,11 @@ public class DepartmentServiceImpl implements DepartmentService {
 	@Autowired
 	private DepartmentDao departmentDao;
 
-	@Override
 	public List<Department> select() {
 		List<Department> list =  departmentDao.queryDepartment();
 		return list;
 	}
-	
+
 	
 
 }
