@@ -1,4 +1,4 @@
-package model;
+package com.springmvc.model;
 
 import java.io.Serializable;
 

@@ -1,9 +1,9 @@
-package util;
-
-import java.util.List;
+package com.springmvc.util;
 
 import com.springmvc.services.model.User;
 import com.springmvc.services.service.UserService;
+
+import java.util.List;
 
 public class Test {
 	public UserService schoolservice;
@@ -17,7 +17,7 @@ public class Test {
 	}
 
 	public static void main(String[] args) {
-		Test tes=new Test();	
+		Test tes=new Test();
 		tes.show();
 	}
 	public void show(){

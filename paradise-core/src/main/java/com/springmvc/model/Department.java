@@ -1,6 +1,7 @@
-package model;
+package com.springmvc.model;
 
 import java.io.Serializable;
+
 /**
  * 部门实体类
  * @author 

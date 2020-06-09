@@ -1,16 +1,12 @@
-package impl;
+package com.springmvc.impl;
 
-import java.util.List;
-
+import com.springmvc.services.dao.DepartmentDao;
+import com.springmvc.services.model.Department;
+import com.springmvc.services.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springmvc.services.dao.DepartmentDao;
-import com.springmvc.services.dao.UserDao;
-import com.springmvc.services.model.Department;
-import com.springmvc.services.model.User;
-import com.springmvc.services.service.DepartmentService;
-import com.springmvc.services.service.UserService;
+import java.util.List;
 
 @Service("departmentService")
 public class DepartmentServiceImpl implements DepartmentService {

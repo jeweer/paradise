@@ -1,15 +1,13 @@
-package demo;
+package com.springmvc.demo;
+
+import com.alibaba.druid.pool.DruidDataSource;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.alibaba.druid.pool.DruidDataSource;
 
 public class MainApp {
 	public static void main(String[] args) {

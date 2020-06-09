@@ -1,19 +1,19 @@
-package controller;
+package com.springmvc.controller;
 
-import java.util.*;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.springmvc.services.model.Department;
+import com.springmvc.services.service.DepartmentService;
+import com.springmvc.util.JSONUtilAction;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import com.springmvc.services.model.Department;
-import com.springmvc.services.service.DepartmentService;
-import com.springmvc.util.JSONUtilAction;
 
-import io.swagger.annotations.Api;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 
 @Controller
 @Api(tags = "部门信息接口")

@@ -1,25 +1,15 @@
-package util;
-
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.util.StringUtils;
+package com.springmvc.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize.Inclusion;
+import org.springframework.util.StringUtils;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 
 public class JSONUtilAction {
 
@@ -30,7 +20,7 @@ public class JSONUtilAction {
 	 * @param response
 	 * @param json
 	 */
-	public void writeJSONStringToResponse(HttpServletResponse response,  
+	public void writeJSONStringToResponse(HttpServletResponse response,
             String json) {  
         response.setCharacterEncoding("utf-8");  
         response.setContentType("application/json");
