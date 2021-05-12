@@ -18,7 +18,7 @@
         <mybatis.version>3.2.8</mybatis.version>
         <cxf.version>3.0.0</cxf.version>
         <activiti.version>5.17.0</activiti.version>
-        <secrity.version>3.2.3.RELEASE</secrity.version>
+        <secrity.version>5.2.10.RELEASE</secrity.version>
     </properties>
 
     <dependencies>
